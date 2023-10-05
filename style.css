@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 100vh;
+}
+
+.pre-header{
+    height: 2rem;
+    background-color: #B91212;
+    padding-top:.5rem ;
+    display: flex;
+    justify-content: center;
+}
+
+.pre-header .pre1{
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.pre-header .pre2{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+}
+
+.header{
+    min-height: 4rem;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    background: url(./juice.png),  no-repeat;
+
+}
+
+.navigation{
+
+}
+
+.bar{
+    display: flex;
+}
+
+.nav-items{
+    padding: .5rem 1rem;
+    list-style-type: none;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: #282727;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px; /* 228.571% */
+    text-transform: uppercase;
+}
+
+.input-box{
+    overflow: hidden;
+}
+
+.input{
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: #F5F5F5;
+    padding: 9.5px 37px 9.5px 16px;
+    margin-right: -3.1rem;
+
+    border: none;
+    outline: none;
+
+    width: 100%;
+}
+
+.input-search{
+    border-radius: 0px 11px 10px 0px;
+    padding: .7rem;
+background: #FF6D00;
+
+}
+
+.user-info{
+    display: flex;
+    
+}
+
+.cart{
+    margin-right:  1.5rem; 
+    width: 1rem;
+    padding: 1rem;
+}
+.cart-photo{
+    width: 2.5rem;
+    padding: .6rem;
+    border-radius: 18px;
+    background: #EDEFEF;
+    position: absolute;
+}
+
+.cart-text{
+    position: relative;
+    right: -30px;
+    top: -5px;
+    background-color: #FF6D00;
+    padding: 5px 10px;
+    border-radius: 100%;
+    color: #FFF;
+}
+
+.user{
+    width: 1rem;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.user-photo{
+    width: 2.2rem;
+    padding: .6rem;
+    border-radius: 18px;
+    background: #EDEFEF;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+.main{
+    margin-top: 1rem;
+   background: linear-gradient(90deg, rgba(0, 0, 0, 0.84) 7.4%, rgba(0, 0, 0, 0.00) 75.73%), url(./image-1.png), lightgray 0px -55px / 100% 150.976% no-repeat;
+}
+
+.nutri{
+    padding: 2rem;
+    line-height: 3rem;
+}
+
+.nutri h1{
+    color: #FFF;
+/* font-family: Lato; */
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 100% */
+text-transform: uppercase;
+margin-bottom: .8rem;
+}
+
+.nutri h3{
+    color: #FFF;
+/* font-family: Lato; */
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 120% */
+margin-bottom: 1rem;
+}
+
+.btn{
+    padding: .5rem 1.5rem;
+    border-radius: 18px;
+border: 1px solid #FF6D00;
+background: #FF6D00;
+
+color: #FFF;
+text-shadow: 1px 1px 0px #000;
+/* font-family: Lato; */
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 14px; /* 100% */
+}
+
+.panel{
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+}
+
+.ele{
+    color: #FFF;
+    padding: 1rem;
+}
+
+.ele-img{
+
+}
+
+.ele-text{
+    color: #FFF;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 16.1px; /* 115% */
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+.choose{
+    background: linear-gradient(90deg, #E1EFE6 23.19%, rgba(225, 239, 230, 0.00) 74.58%), url(./image-2.png), lightgray -133.424px 0px / 112.753% 106.312% no-repeat;
+}
+
+.why{
+    padding: 1rem 2rem;
+    line-height: 3rem;
+}
+
+.why h1{
+    color: #000;
+font-family: Lato;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.why h2{
+    margin-top: 2rem;
+    color: #000;
+font-family: Lato;
+font-size: 27px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.choose-items{
+    padding: .5rem;
+    line-height: 3rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.choose-item{
+    padding: 2rem;
+    margin-right: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.choose-image{
+    font-size: 20px;
+}
+
+.choose-text{
+    color: #272828;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 136.364% */
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+.bestsellers{
+    padding: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bestsellers h1{
+    color: #282727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+/*--------------------------------------------------------------------------*/
+
+.recommendation{
+    background-color:#FFF;
+   min-height: 20rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.home-use{
+    min-width: 10rem;
+    margin: 1rem 3rem;
+    flex: 1;
+
+    border: 2px solid #EFEFEF;
+    background: #F1F5F5;
+
+    padding: 0 0 2rem;
+}
+.home-text{
+    text-align: center;
+    margin-bottom: 1rem;
+
+    color: #282727;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.home-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home-cards{
+    min-width: 11vw;
+    overflow: hidden;
+    background-color: #FFF;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+}
+
+.home-image{
+    width: 10rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.home-info{
+    text-align: left;
+    padding: 1rem;
+}
+
+.homep{
+    color: #FF6D00;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22px; /* 137.5% */
+    text-transform: uppercase;
+}
+
+.home-price{
+    color: #333;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 142.857% */
+}
+
+.home-btn{
+    width: 100%;
+    border-radius: 2px;
+    background: #090;
+    padding: .3rem;
+    border: none;
+    outline: none;
+
+    color: #FFF;
+    font-weight: bold;
+}
+
+.commercial-use{
+    min-width: 10rem;
+    background-color: #FF6D00;
+    margin: 4.5rem;
+    flex: 1;
+}
+
+.call-to-action{
+    text-align: center;
+    padding: 2rem;
+}
+
+.cta-btn{
+    padding: 8px 16.86px 8px 17.06px;
+    color: #FFF;
+text-align: center;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 140% */
+
+border-radius: 4px;
+background: #090;
+
+border: none;
+outline: none;
+}
